@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exo02 JS Calculatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+
+    <div class="head flex-center">
+      <h1 id="page-title"></h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Exo Calculatrice</a>
+        </li>
+        <li>
+          <a href="page2.html">EXO Story Teller</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="calculatrice">
+
+    Chiffre 1 : <input type="text" name="" value="" id="enter1">
+    <div class="esp"></div>
+    Chiffre 2 : <input type="text" name="" value="" id="enter2">
+    <div class="esp"></div>
+    <button type="button" name="button" onclick="addition()">+</button>
+    <button type="button" name="button" onclick="multiplication()">x</button>
+    <button type="button" name="button" onclick="soustraction()">-</button>
+    <button type="button" name="button" onclick="division()">:</button>
+    <div class="esp"></div>
+    Résultat : <div id="result"></div>
+
+    </div>
+
+  <!--- JS ----------------------->
+  <script src="js/app.js" charset="utf-8"></script>
+  </body>
+
+</html>
